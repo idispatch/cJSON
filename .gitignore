@@ -1,0 +1,5 @@
+*.o
+*.a
+*.so
+.DS_Store
+*.pinfo
