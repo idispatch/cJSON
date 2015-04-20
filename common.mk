@@ -7,14 +7,8 @@ QCONFIG=qconfig.mk
 endif
 include $(QCONFIG)
 
-#===== USEFILE - the file containing the usage message for the application.
 USEFILE=
-
-#===== NAME - name of the project (default - name of project directory).
 NAME=cJSON
-
-#===== EXTRA_SILENT_VARIANTS - variants that are not appended to the result binary name (like MyBin_g)
-EXTRA_SILENT_VARIANTS+=x86
 
 include $(MKFILES_ROOT)/qmacros.mk
 ifndef QNX_INTERNAL
